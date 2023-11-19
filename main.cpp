@@ -9,6 +9,8 @@ int main()
 {
 	char file_path1[256];
 	char file_path2[256];
+	cout << "该程序可自定义替换希沃白板启动图标" << endl;
+	cout << "作者的开源项目仓库：https://github.com/yejunjie10311031?tab=repositories" <<endl;
 	checkseewostarticon yjj_checkseewostarticon;
 	cout << "请输入希沃白板的文件路径：";
 	cin.getline(file_path1,256);
